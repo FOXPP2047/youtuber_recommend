@@ -1,0 +1,10 @@
+.main-container {
+    overflow: hidden;
+}
+.nameContainer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 30%;
+    overflow: auto;
+}
