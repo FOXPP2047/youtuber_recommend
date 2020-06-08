@@ -7,4 +7,8 @@
     width: 100%;
     top: 30%;
     overflow: auto;
+
+    color: #ff2e63;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 2.5rem;
 }
