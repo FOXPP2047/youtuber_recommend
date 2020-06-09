@@ -6,25 +6,25 @@ import SearchBar from "../SearchBar/SearchBar";
 
 import "./Join.css";
 
-import { bounce } from 'react-animations';
-import Radium, {StyleRoot} from 'radium';
+// import { bounce } from 'react-animations';
+// import Radium, {StyleRoot} from 'radium';
 
-const styles = {
-    bounce: {
-      animation: 'x 1s',
-      animationName: Radium.keyframes(bounce, 'bounce'),
-    }
-}
+// const styles = {
+//     bounce: {
+//       animation: 'x 1s',
+//       animationName: Radium.keyframes(bounce, 'bounce'),
+//     }
+// }
 
 const Join = () => {
     return (
         <Box component="div" className="main-container">
             <YoutubeParticle />
-            <StyleRoot>
+            {/* <StyleRoot>
                 <div style={styles.bounce} className="nameContainer">
                     <h1>Search Your Youtuber</h1>
                 </div>
-            </StyleRoot>
+            </StyleRoot> */}
             <SearchBar />
         </Box>
     );
