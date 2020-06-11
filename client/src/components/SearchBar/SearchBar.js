@@ -20,12 +20,6 @@ const SearchBar = () => {
         setTypedValue(event.target.value);
     }
 
-    function handleEnter(event) {
-        if(event.key === "Enter") {
-            this.click();
-            console.log("JAS");
-        }
-    }
     return (
         <div>
             <StyleRoot>
@@ -37,7 +31,7 @@ const SearchBar = () => {
                 <input type="text" name="textField" className="textField" autoComplete="off"
                 placeholder="Search Your Youtuber" onChange={event => handleChange(event)}/>
                 <Link to={"/" + typedValue}>
-                    <div className="buttonField" onKeyDown={event => handleEnter(event)}>
+                    <div className="buttonField" >
                         <i className="fas fa-search-plus"></i>
                     </div>
                 </Link>
